@@ -18,3 +18,23 @@ Echo commmand:
 - any html tag placed under this will be treated as normal html when rendered.
 
 variables:
+$varName = "string"; or $varName = value;
+
+    Ex:
+    $characterName = "John";
+    $characterAge = 35;
+
+    echo ("There was once a man named $characterName <br>");
+    echo ("He was $characterAge years old <br>");
+
+Getting user input:
+
+<form action="input.php"(SITE THAT HANDLES INPUT REQUEST) method="get"(SIGNIFIES WE ARE TAKING INPUT)>
+Name: <input type="text" name="name"(IDENTIFIER)>
+
+        <input type="submit">
+    </form>
+    <br>
+
+    <?php
+    echo $_GET["name"] ?>(USES VALUE ASSOCIATED WITH IDENTIFIER)
