@@ -29,8 +29,8 @@ $varName = "string"; or $varName = value;
 
 Getting user input:
 
-<form action="input.php"(SITE THAT HANDLES INPUT REQUEST) method="get"(SIGNIFIES WE ARE TAKING INPUT)>
-Name: <input type="text" name="name"(IDENTIFIER)>
+< form action="input.php"(SITE THAT HANDLES INPUT REQUEST) method="get"(SIGNIFIES WE ARE TAKING INPUT)>
+Name: < input type="text" name="name"(IDENTIFIER)>
 
         <input type="submit">
     </form>
