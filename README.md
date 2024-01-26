@@ -11,3 +11,10 @@ Laravel PHP Framework Tutorial - Full Course for Beginners (2019): https://www.y
 Total course time: 9 hours
 
 local server address: localhost:3000/
+
+Echo commmand:
+
+- basically a print function.
+- any html tag placed under this will be treated as normal html when rendered.
+
+variables:
