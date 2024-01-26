@@ -13,8 +13,9 @@
         <br>
         num2: <input type="number" name="num2">
         <input type="submit">
-
-    <?php echo $GET["num1"]+ $GET["num2"]
+    </form>
+    Answer:
+    <?php echo $_GET["num1"] + $_GET["num2"] ?>
 </body>
 
 </html>
