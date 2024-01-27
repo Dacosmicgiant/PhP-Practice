@@ -40,3 +40,5 @@ Getting user input:
 
     <?php
     echo $_GET["name"] ?>(USES VALUE ASSOCIATED WITH IDENTIFIER)
+
+POST method:
