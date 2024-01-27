@@ -9,11 +9,13 @@
 
 <body>
     <?php
+
     $index = 1;
     while ($index <= 5) {
         echo "$index <br>";
         $index++;
     }
+    //this line prints 5 stars
     for ($i = 0; $i < 5; $i++) {
         echo "*";
     }
