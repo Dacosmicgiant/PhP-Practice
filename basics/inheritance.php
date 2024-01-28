@@ -32,6 +32,11 @@
         {
             echo "The chef makes pasta<br>";
         }
+
+        function makeSpecialDish()
+        { //function overriding
+            echo "The chef makes chicken parm";
+        }
     }
 
     $chef = new Chef();
@@ -40,6 +45,9 @@
     $italianChef = new ItalianChef();
     $italianChef->makePasta();
     $italianChef->makeChicken();
+
+    $italianChef->makeSpecialDish();
+    $chef->makeSpecialDish();
 
     ?>
 </body>
